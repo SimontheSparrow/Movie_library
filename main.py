@@ -64,9 +64,7 @@ def season_adder(object_title, released, genre, season_nr, num_of_episodes):
     object_title.season_nr = season_nr
     for ep in range(1, num_of_episodes + 1):
         object_title.episode_nr.append(ep)
-
-
-# Jak dla mnie treść zadania jest trochę bez sensu/ niezrozumiała stąd ta funkcja.
+# Jak dla mnie treść zadania jest trochę bez sensu/ niezrozumiała stąd taka funkcja.
 
 
 def welcome_display():
