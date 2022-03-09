@@ -47,7 +47,6 @@ def run_views_generator():
 
 def top_titles(number_of_titles):
     content = input("Series (s) or movies (m)?")
-    # top_list = []
     if content == 'm':
         movies_library.sort(key=lambda movie: movie.views)
         for i in range(number_of_titles):
